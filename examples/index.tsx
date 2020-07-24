@@ -4,7 +4,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import I18nCurrencyInput from '../src/index';
+import I18nCurrencyInput from '../useI18nCurrencyInput.ts/index';
 import { boundMethod } from 'autobind-decorator';
 
 
