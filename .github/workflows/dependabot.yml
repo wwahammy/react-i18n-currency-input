@@ -41,13 +41,6 @@ jobs:
         uses: actions/setup-node@v3.5.0
         with:
           node-version: 16.x
-      - name: Restore cache
-        uses: actions/cache@v3.0.10
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: ${{ runner.os }}-yarn-
- 
       - name: Autofix lockfile
         run: |
           # restore yarn.lock from the previous commit
@@ -59,10 +52,15 @@ jobs:
           yarn install --no-immutable --mode=update-lockfile
           # deduplicate lockfile
           yarn dedupe --mode=update-lockfile
-          
-      - name: install via yarn
-        run: yarn
 
+      - name: Restore cache
+        uses: actions/cache@v3.0.10
+        with:
+          path: .yarn/cache
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
+      - name: install via yarn
+        run: yarn --immutable
 
       - name: Update NOTICE-js
         run: yarn notice_update
