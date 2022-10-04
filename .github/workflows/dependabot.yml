@@ -47,9 +47,7 @@ jobs:
           path: .yarn/cache
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: ${{ runner.os }}-yarn-
-      - name: install via yarn
-        run: yarn
-
+ 
       - name: Autofix lockfile
         run: |
           # restore yarn.lock from the previous commit
@@ -61,6 +59,10 @@ jobs:
           yarn install --no-immutable --mode=update-lockfile
           # deduplicate lockfile
           yarn dedupe --mode=update-lockfile
+          
+      - name: install via yarn
+        run: yarn
+
 
       - name: Update NOTICE-js
         run: yarn notice_update
