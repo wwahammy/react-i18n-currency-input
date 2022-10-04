@@ -47,7 +47,8 @@ jobs:
           path: .yarn/cache
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: ${{ runner.os }}-yarn-
-      - run: yarn
+      - name: install via yarn
+        run: yarn
 
       - name: Autofix lockfile
         run: |
@@ -61,7 +62,6 @@ jobs:
           # deduplicate lockfile
           yarn dedupe --mode=update-lockfile
 
-      - name: run yarn
       - name: Update NOTICE-js
         run: yarn notice_update
 
@@ -71,7 +71,7 @@ jobs:
           git config user.name "dependabot-fix"
           git config user.email "dependabot-fix@example.com"
 
-      - name: Commitchanges
+      - name: Commit changes
         run: |
           cd .`git log -1 --pretty=%s | awk '{ print $8 }'`
           git add yarn.lock
