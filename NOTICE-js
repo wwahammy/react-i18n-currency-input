@@ -3567,7 +3567,7 @@ Creative Commons may be contacted at creativecommons.org.
 
 ------
 
-** mdn-data; version 2.0.6 -- https://developer.mozilla.org
+** mdn-data; version 2.0.14 -- https://developer.mozilla.org
 
 CC0 1.0 Universal
 
@@ -8529,6 +8529,34 @@ THE SOFTWARE.
 
 ------
 
+** stylis; version 4.1.2 -- https://github.com/thysultan/stylis.js
+Copyright (c) 2016-present Sultan Tarimo
+
+MIT License
+
+Copyright (c) 2016-present Sultan Tarimo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+------
+
 ** has-tostringtag; version 1.0.0 -- https://github.com/inspect-js/has-tostringtag#readme
 Copyright (c) 2021 Inspect JS
 
@@ -10353,9 +10381,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** css-tree; version 1.0.0-alpha.39 -- https://github.com/csstree/csstree#readme
-Copyright 2011 The Closure Compiler
+** css-tree; version 1.1.3 -- https://github.com/csstree/csstree#readme
 Copyright (c) 2016-2019 by Roman Dvornov
+Copyright 2011 The Closure Compiler Authors
 Copyright 2011 Mozilla Foundation and contributors
 Copyright 2014 Mozilla Foundation and contributors
 
@@ -10577,53 +10605,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-------
-
-** bowser; version 1.9.4 -- https://github.com/lancedikson/bowser
-(c) Dustin Diaz 2015
-Copyright 2015, Dustin Diaz
-
-Copyright 2015, Dustin Diaz (the "Original Author")
-All rights reserved.
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without
-restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-Distributions of all or part of the Software intended to be used
-by the recipients as they would use the unmodified Software,
-containing modifications that substantially alter, remove, or
-disable functionality of the Software, outside of the documented
-configuration mechanisms provided by the Software, shall be
-modified such that the Original Author's bug reporting email
-addresses and urls are either replaced with the contact information
-of the parties responsible for the changes, or removed entirely.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-
-Except where noted, this license applies to any and all software
-programs and associated documentation files created by the
-Original Author, when distributed with the Software.
 
 
 ------
@@ -11191,7 +11172,7 @@ THE SOFTWARE.
 
 ------
 
-** throttle-debounce; version 2.2.1 -- https://github.com/niksy/throttle-debounce#readme
+** throttle-debounce; version 3.0.1 -- https://github.com/niksy/throttle-debounce#readme
 Copyright (c) 2010 Cowboy Ben Alman
 (c) Ivan Nikolic (http://ivannikolic.com)
 copyrighted by the Free Software Foundation
@@ -11614,7 +11595,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** copy-to-clipboard; version 3.3.1 -- https://github.com/sudodoki/copy-to-clipboard#readme
+** copy-to-clipboard; version 3.3.2 -- https://github.com/sudodoki/copy-to-clipboard#readme
 Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
 
 MIT License
@@ -12517,7 +12498,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** inline-style-prefixer; version 4.0.2 -- https://github.com/rofrischmann/inline-style-prefixer#readme
+** inline-style-prefixer; version 6.0.1 -- https://github.com/rofrischmann/inline-style-prefixer#readme
 Copyright (c) 2015 Robin Frischmann
 
 The MIT License (MIT)
@@ -14081,7 +14062,7 @@ Copyright (c) 2017 Kent C. Dodds
 Copyright (c) 2014-present, Facebook, Inc.
 Copyright (c) Facebook, Inc. and its affiliates
 Copyright (c) 2013 Pieroxy <pieroxy@pieroxy.net>
-** rtl-css-js; version 1.14.0 -- https://github.com/kentcdodds/rtl-css-js#readme
+** rtl-css-js; version 1.16.0 -- https://github.com/kentcdodds/rtl-css-js#readme
 Copyright (c) 2017 Kent C. Dodds
 
 The MIT License (MIT)
@@ -14237,7 +14218,7 @@ Copyright (c) Microsoft Corporation
 Copyright (c) Microsoft Corporation
 ** @types/jest; version 28.1.4 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest
 Copyright (c) Microsoft Corporation
-** @types/js-cookie; version 2.2.6 -- 
+** @types/js-cookie; version 2.2.7 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/js-cookie
 Copyright (c) Microsoft Corporation.
 ** @types/jsdom; version 16.2.14 -- https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsdom
 Copyright (c) Microsoft Corporation
@@ -15461,34 +15442,6 @@ Copyright (c) 2017 CoderPuppy
 The MIT License (MIT)
 
 Copyright (c) 2017 CoderPuppy
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-------
-
-** stylis; version 3.5.0 -- https://github.com/thysultan/stylis.js
-Copyright (c) 2016 Sultan Tarimo
-
-MIT License
-
-Copyright (c) 2016 Sultan Tarimo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -17361,7 +17314,7 @@ SOFTWARE.
 ------
 
 ** concat-map; version 0.0.1 -- https://github.com/substack/node-concat-map
-** fastest-stable-stringify; version 1.0.1 -- https://github.com/streamich/fastest-stable-stringify
+** fastest-stable-stringify; version 2.0.2 -- https://github.com/streamich/fastest-stable-stringify
 ** is-typedarray; version 1.0.0 -- https://github.com/hughsk/is-typedarray
 ** minimist; version 1.2.6 -- https://github.com/substack/minimist
 ** path-browserify; version 0.0.1 -- https://github.com/substack/path-browserify
@@ -17585,9 +17538,7 @@ Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** resolve-from; version 5.0.0 -- https://github.com/sindresorhus/resolve-from#readme
 (c) Sindre Sorhus (https://sindresorhus.com)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-** screenfull; version 5.0.2 -- https://github.com/sindresorhus/screenfull.js#readme
-(c) Sindre Sorhus
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+** screenfull; version 5.2.0 -- https://github.com/sindresorhus/screenfull.js#readme
 ** semver-diff; version 3.1.1 -- https://github.com/sindresorhus/semver-diff#readme
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 ** shebang-regex; version 3.0.0 -- https://github.com/sindresorhus/shebang-regex#readme
@@ -17836,7 +17787,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 
-** csstype; version 2.6.11 -- https://github.com/frenic/csstype#readme
+** csstype; version 3.1.1 -- https://github.com/frenic/csstype#readme
 Copyright (c) 2017-2018 Fredrik Nicol
 
 Copyright (c) 2017-2018 Fredrik Nicol
@@ -18680,9 +18631,9 @@ For more information, please refer to <http://unlicense.org>
 ** fast-shallow-equal; version 1.0.0 -- https://github.com/streamich/fast-shallow-equal#readme
 ** fs-monkey; version 1.0.3 -- https://github.com/streamich/fs-monkey#readme
 ** memfs; version 3.4.7 -- https://github.com/streamich/memfs#readme
-** nano-css; version 5.3.0 -- https://github.com/streamich/nano-css#readme
+** nano-css; version 5.3.5 -- https://github.com/streamich/nano-css#readme
 ** react-universal-interface; version 0.6.2 -- https://github.com/streamich/react-universal-interface#readme
-** react-use; version 15.3.3 -- https://github.com/streamich/react-use#readme
+** react-use; version 17.4.0 -- https://github.com/streamich/react-use#readme
 ** set-harmonic-interval; version 1.0.1 -- https://github.com/streamich/set-harmonic-interval
 ** ts-easing; version 0.2.0 -- https://github.com/streamich/ts-easing#readme
 
