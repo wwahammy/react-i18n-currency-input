@@ -2242,7 +2242,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addons@npm:6.5.10, @storybook/addons@npm:^6.5.10":
+"@storybook/addons@npm:6.5.10":
   version: 6.5.10
   resolution: "@storybook/addons@npm:6.5.10"
   dependencies:
@@ -2264,7 +2264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addons@npm:6.5.16":
+"@storybook/addons@npm:6.5.16, @storybook/addons@npm:^6.5.10":
   version: 6.5.16
   resolution: "@storybook/addons@npm:6.5.16"
   dependencies:
